@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt('Ingresa el salario del mes anterior');
+        var b = prompt('Ingresa el porcentaje que gastas en arriendo');
+
+        if (b > 100) {
+            alert('Porcentaje inválido');
+        } else {
+            //convertir las variables en enteros
+            a = parseFloat(a);
+            b = parseInt(b);
+
+            //Se obtiene el porcentaje
+            var value_porcent = a * (b / 100);
+            console.log(value_porcent);
+
+            //Se saca el porcentaje del salario
+            var remaining_salary = a - value_porcent;
+            alert('Este es tu salario restante = ' + remaining_salary);
+        }
+    </script>
+</body>
+
+</html>
