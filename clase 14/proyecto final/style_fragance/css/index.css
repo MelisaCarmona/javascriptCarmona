@@ -38,7 +38,7 @@ header h1 {
 #icon_purchase {
     margin-top: 8%;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: right;
     margin-right: 10px;
 }
@@ -109,6 +109,10 @@ h2 {
     font-family: var(--h1);
 }
 
+#titulo_card {
+    margin: 5px;
+}
+
 #content {
     display: flex;
 }
@@ -118,7 +122,6 @@ h2 {
     display: inline-block;
     width: 100%;
     margin: 0px;
-    justify-content: center;
 }
 
 .catalogo_productos {
